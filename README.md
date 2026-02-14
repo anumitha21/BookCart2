@@ -6,19 +6,48 @@
 
 A minimal, modern, and responsive frontend for an online bookstore. Designed with professional, clean UI and smooth animations for a premium user experience. Built using React and Tailwind CSS, this project includes essential pages like Homepage, Book Listing, Book Detail, and Cart.
 
-## Table of Contents
+## Project Structure
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-The Book Store is a modern web application designed to help users discover and purchase books online. With a sleek and intuitive interface, users can easily browse through a wide selection of books, view detailed information about each book, add them to their cart, and complete the checkout process seamlessly.
+```
+Book-Store/
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+├── vite.config.js
+├── public/
+│   ├── list.json
+│   ├── vite.svg
+│   └── images/
+│       └── hero.jpg
+└── src/
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    └── components/
+        ├── Banner.jsx
+        ├── Books.jsx
+        ├── Copyright.jsx
+        ├── Footers.jsx
+        ├── Freebooks.jsx
+        ├── Login.jsx
+        ├── Navbar.jsx
+        ├── Signup.jsx
+        ├── about/
+        │   └── About.jsx
+        ├── Books/
+        │   └── BookSection.jsx
+        ├── Card/
+        │   └── Card.jsx
+        ├── contact/
+        │   └── Contact.jsx
+        └── Home/
+            └── Home.jsx
+```
 
 ## Features
 
@@ -58,7 +87,7 @@ To run the Book Store project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/akhilpandit09/Book-Store-Application.git
+   git clone https://github.com/anumitha21/BookCart2.git
    ```
 
 2. Navigate to the project directory:
