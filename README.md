@@ -2,9 +2,9 @@
 
 ---
 
-# Book Store
+# BookCart
 
-Welcome to the Book Store project! This project is a web application built using React, Vite, Tailwind CSS, React Icons, Daisy UI, React Router DOM, Carousel, and React Hook Form.
+A minimal, modern, and responsive frontend for an online bookstore. Designed with professional, clean UI and smooth animations for a premium user experience. Built using React and Tailwind CSS, this project includes essential pages like Homepage, Book Listing, Book Detail, and Cart.
 
 ## Table of Contents
 
